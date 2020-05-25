@@ -1,0 +1,7 @@
+money = int(input('金額＞'))
+ml = int(money / 10000)
+ft = int(money % 10000 / 5000)
+ts = int(money % 5000 / 1000)
+print('10000円札',ml)
+print('5000円札', ft)
+print('1000円札', ts)
