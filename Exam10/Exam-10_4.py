@@ -10,7 +10,7 @@ def sum_n(n):
 
 def average(a):
     n_list = a.split(' ')
-    print('平均:',sum_n(num) / len(n_list))
+    print('平均:',sum_n(a) / len(n_list))
 
 def max_n(m):
     nu_list = num.split(' ')
