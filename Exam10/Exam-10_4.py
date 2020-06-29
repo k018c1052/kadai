@@ -10,12 +10,13 @@ def sum_n(n):
 
 def average(a):
     n_list = a.split(' ')
-    print('平均:',sum_n(a) / len(n_list))
+    return sum_n(a) / len(n_list)
 
 def max_n(m):
-    nu_list = num.split(' ')
-    print('最大値:',max(nu_list))
+    nu_list = m.split(' ')
+    return max(nu_list)
+
 
 #print('合計:',sum_n(num))
-average(num)
-max_n(num)
+print('平均:', average(num))
+print('最大値:', max_n(num))
